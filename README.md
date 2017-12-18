@@ -8,10 +8,10 @@ a que vea información, decida ante una circunstancia crítica o especifique dat
 
 En forma general, los diálogos se pueden utilizar con distintos fines:
 
- Mostrar un mensaje.
- Recordar la importancia de borrar un elemento de la interfaz antes de conti-nuar con alguna tarea en particular.
- Para el proceso de Login
- Para seleccionar una preferencia
- Para formularios de edición o inserción de datos
- Pedir una confirmación rápida.
- Solicitar al usuario una elección (simple o múltiple) entre varias alternativas.
+1.- Mostrar un mensaje.
+2.- Recordar la importancia de borrar un elemento de la interfaz antes de conti-nuar con alguna tarea en particular.
+3.- Para el proceso de Login
+4.- Para seleccionar una preferencia
+5.- Para formularios de edición o inserción de datos
+6.- Pedir una confirmación rápida.
+7.- Solicitar al usuario una elección (simple o múltiple) entre varias alternativas.
