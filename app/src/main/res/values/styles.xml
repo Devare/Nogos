@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--Tema para los dialogos de alerta-->
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+
+        <!--item RadioButton or CheckBox color-->
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <!--color de los items de la lista del diálogo-->
+        <item name="textColorAlertDialogListItem">@color/primary_text</item>
+        <!--Color de los botones de acción-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--titulo y cuerpo del mensaje del diálogo color-->
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <!--Color del titulo del diálogo-->
+        <item name="android:windowTitleStyle">@style/TitleTextAlertDialogStyle</item>
+
+        <!--dibujable de fondo del diálogo-->
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+
+
+    </style>
+
+    <style name="TitleTextAlertDialogStyle">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
+
+    <style name="ViewsTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ViewsTheme.ThemeButton">
+        <item name="android:textColor">@color/colorBlanco</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@drawable/bk_boton_selector</item>
+    </style>
+</resources>
